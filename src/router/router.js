@@ -5,6 +5,7 @@ import ImageScreen from "../screens/ImageScreen";
 import CounterScreen from "../screens/CounterScreen";
 import ColorScreen from "../screens/ColorScreen";
 import SquareScreen from "../screens/SquareScreen";
+import SquareReducerScreen from "../screens/SquareReducerScreen";
 
 const router = {
   Home: HomeScreen,
@@ -13,6 +14,7 @@ const router = {
   Image: ImageScreen,
   Counter: CounterScreen,
   Square: SquareScreen,
+  SquareReducer: SquareReducerScreen,
 };
 
 export default router;
